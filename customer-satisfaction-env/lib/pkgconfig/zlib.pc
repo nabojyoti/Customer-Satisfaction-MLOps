@@ -1,0 +1,13 @@
+prefix=/home/cloudcraftz/Desktop/myproj/Customer-Satisfaction-MLOps/customer-satisfaction
+exec_prefix=/home/cloudcraftz/Desktop/myproj/Customer-Satisfaction-MLOps/customer-satisfaction
+libdir=/home/cloudcraftz/Desktop/myproj/Customer-Satisfaction-MLOps/customer-satisfaction/lib
+sharedlibdir=/home/cloudcraftz/Desktop/myproj/Customer-Satisfaction-MLOps/customer-satisfaction/lib
+includedir=/home/cloudcraftz/Desktop/myproj/Customer-Satisfaction-MLOps/customer-satisfaction/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
